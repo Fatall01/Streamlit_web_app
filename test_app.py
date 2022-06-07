@@ -5,7 +5,7 @@
 
 #import libraries
 import streamlit as st
-import scikit-learn
+import sklearn
 from streamlit_lottie import st_lottie
 from PIL import Image
 import requests
