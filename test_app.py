@@ -43,7 +43,7 @@ with st.container():
     # add a divider
     st.write("---")
     #add header for the input part
-    st.subheader("Please complete this questionnaire and click on MHD Test")
+    st.subheader("Please complete this questionnaire and click on MHD TEST")
     st.write("##")
 
     #adding input options 
