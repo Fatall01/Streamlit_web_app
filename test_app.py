@@ -20,7 +20,7 @@ def load_lottieurl(url):
 # load assets (lotties animation)
 lottie1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_tijmpky4.json")
 
-#--------------------------MAIN--------------------------------------------------------
+##--------------------------MAIN--------------------------------------------------------
 #1 Create header and title
 with st.container():
     st.title("Mental health Disorder (MHD) Prediction")
