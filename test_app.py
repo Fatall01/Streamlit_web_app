@@ -1,4 +1,4 @@
-### Streamlit Web APP for Mental health Disorder (MHD) Prediction
+### Streamlit Web APP for Mental Health Disorder (MHD) Prediction
 
 #get_ipython().system('pip install --upgrade streamlit --user')
 #get_ipython().system('pip install --upgrade scikit-learn --user')
@@ -23,7 +23,7 @@ lottie1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_tijmpky4
 #--------------------------MAIN--------------------------------------------------------
 #1 Create header and title
 with st.container():
-    st.title("Mental health Disorder (MHD) Prediction")
+    st.title("Mental Health Disorder (MHD) Prediction")
 
 #2 create two columns: one for project description and the second for animation
     left_column, right_column = st.columns((2,1))
@@ -81,7 +81,7 @@ with st.container():
     ('No', 'Maybe/Not sure', 'Yes, I observed', 'Yes, I experienced'))
             #st.write('You selected:', mhd_unsupportive_response)
 
-    mh_work_interfere = st.selectbox('Do you feel that it interferes with your work when NOT being treated effectively?',
+    mh_work_interfere = st.selectbox('If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?',
     ('Never', 'Not applicable to me', 'Rarely', 'Sometimes', 'Often'))
             #st.write('You selected:', mh_work_interfere)
 
